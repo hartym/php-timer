@@ -1,6 +1,6 @@
 <?php
 /**
- * PHP_Timer
+ * Timer
  *
  * Copyright (c) 2010-2012, Sebastian Bergmann <sb@sebastian-bergmann.de>.
  * All rights reserved.
@@ -149,13 +149,13 @@ class Timer
 }
 
 if (isset($_SERVER['REQUEST_TIME_FLOAT'])) {
-    PHP_Timer::$requestTime = $_SERVER['REQUEST_TIME_FLOAT'];
+    Timer::$requestTime = $_SERVER['REQUEST_TIME_FLOAT'];
 }
 
 else if (isset($_SERVER['REQUEST_TIME'])) {
-    PHP_Timer::$requestTime = $_SERVER['REQUEST_TIME'];
+    Timer::$requestTime = $_SERVER['REQUEST_TIME'];
 }
 
 else {
-    PHP_Timer::$requestTime = time();
+    Timer::$requestTime = time();
 }
