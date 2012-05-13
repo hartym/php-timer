@@ -1,0 +1,14 @@
+{
+    "name": "sebastianbergmann/timer",
+    "type": "library",
+    "description": "PHP Timer",
+    "autoload": {
+        "psr-0": { "SebastianBergmann\\Timer": "src" }
+    },
+    "authors": [
+        {
+            "name": "Sebastian Bergmann",
+            "email": "sb@sebastian-bergmann.de"
+        }
+    ]
+}

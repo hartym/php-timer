@@ -43,6 +43,8 @@
  * @since      File available since Release 1.0.0
  */
 
+namespace SebastianBergmann\Timer;
+
 /**
  * Utility class for timing.
  *
@@ -55,7 +57,7 @@
  * @link       http://github.com/sebastianbergmann/php-timer
  * @since      Class available since Release 1.0.0
  */
-class PHP_Timer
+class Timer
 {
     /**
      * @var array
